@@ -1,6 +1,6 @@
 heroku.yml
 
-yarn ad heroku
+npm -i -g heroku
 heroku login
 
 git init
@@ -9,3 +9,13 @@ git init
 git add .
 git commit -m '[INSIRA AQUI A MENSAGEM]'
 
+heroku apps:create streaming-spotify-clone
+heroku stack:set container
+heroku open
+
+heroku -t -a streaming-spotify-clone
+
+-- para tirar do ar --
+
+heroku apps:delete
+mr -rf .git
