@@ -5,3 +5,9 @@ server
  server = responsavel por criar so servidor (mas n instancia)
  index = instancia o servidor e expoe para a web (lado da infraestrutura)
  config = tudo que for estatico
+
+client
+ service = regras de negócio e processamento
+ controller = intermédio entre view e service
+ view = tudo que é elemento HTML (elemento visual)
+ index = Factory (inicializador)

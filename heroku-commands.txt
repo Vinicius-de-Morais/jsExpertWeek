@@ -1,0 +1,11 @@
+heroku.yml
+
+yarn ad heroku
+heroku login
+
+git init
+ yarn gitignore node
+
+git add .
+git commit -m '[INSIRA AQUI A MENSAGEM]'
+
